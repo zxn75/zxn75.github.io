@@ -1,6 +1,6 @@
 #wrapper{
   width: 1060px;
-  margin-left: 200;
+  margin-left: 200px;
   margin-right: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
