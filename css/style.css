@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Patua+One&display=swap');
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+header{
+  padding-bottom: 50px;
+  color: #fff;
+  background-color: #e60012;
+  font-family: 'Patua One', sans-serif;
+}
+
+a:link{
+  color: #484848;
+}
+
+a:visited{
+  color: #00accd;
+}
+
+a:hover{
+  color: #e60012;
+}
+
+
+p{
+  background-color: #ddd;
+}
+
+nav{
+  background-color: #ddd;
+}
+
+main{
+  background-color: #ddd;
+}
+
+footer{
+  background-color: #484848;
+}
+
+section {
+  background-color: #484848;
+  margin-bottom: 200px;
+  padding-bottom: 0;
+}
+
+#home div{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+  "header header"
+  "nav    main"
+  "footer footer";
+}
+
+
+#wrapper {
+  color: #484848;
+  font-size: 20px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "header header"
+  "main    main"
+  "footer footer";
+}
+header{
+  grid-area: header;
+}
+
+nav{
+  grid-area: nav;
+}
+
+main{
+  grid-area: main;
+}
+
+footer{
+  grid-area: footer
+}
